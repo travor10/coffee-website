@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: url(./coffee\ image.jpg);
+    background-size: cover;
+    background-position: right;
+}
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 8%;
+    padding-left: 8%;
+ }
+ .logo{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: orangered;
+ }
+ 
+ li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px;
+ }
+ a{
+    text-decoration: none;
+    color: aliceblue;
+ }
+ a:hover{
+    color: orangered;
+    transition: .4s;
+ }
+span{
+    color: orangered;
+}
+.left-side{
+    padding-right: 10%;
+    position: relative;
+}
+.number{
+    position:absolute;
+    
+}
+.search-icon{
+    padding-right:40px;
+    font-size: 30px;
+}
+.shopping{
+    font-size:30px;
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    /* transform: translateY(-50%); */
+}
+h1{
+    margin-bottom: 30px;
+    color: white;
+    font-size: 50px;
+}
+h5{
+    color: white;
+    margin-bottom: 40px;
+}
+button{
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    border-radius: 5px;
+    background: orangered;
+    color: white;
+    /* transition: .4s; */
+}
+.img{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    transition:.4s;
+}
+.img:hover{
+    transform: scale(.9);
+}
+
+.about{
+    width: 100%;
+    min-height: 100vh;
+}
+.heading{
+    padding-top:50px;
+    padding-left:5%;
+    /* position: absolute;
+    /* bottom: 15%; */
+    /* left: 5%;  */
+}
+h2{
+    padding-bottom: 10px;
+}
+.btn{
+    border: 2px solid transparent;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background: orangered;
+    color: white;
+}
+.card-container{
+    display: flex;
+}
+
+.card1{
+    
+    padding-left:5%;
+    width: 650px;
+    /* background: green; */
+
+}
+img{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.price{
+    font-weight:bold;
+    padding-bottom: 15px;
+
+}
+h3{
+    padding-bottom: 15px;
+
+}
+.slogan{
+    padding-bottom: 25px;
+}
+
+@media only screen and (max-width:600px){
+    .logo{
+        padding-left: 5%;
+    }
+    /* .hero{
+        width: 100%;
+    } */
+    /* .about{
+        width: 100%;
+    } */
+    .img{
+      display: none;
+    }
+   ul{
+    display: none;
+   }
+   .left-side{
+    display: none;
+   }
+}
